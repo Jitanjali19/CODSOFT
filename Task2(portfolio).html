@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="Task2.css" />
+
+    <title>portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">JITANJALI PATEL</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="https://www.linkedin.com/in/jitanjali-patel-40a5b7293/" class="about">About</a></li>
+          <li><a href="https://docs.google.com/document/d/1JHFJTISnr1GoBbT77glhHE3kQpml17ZFe8xT6UCrWrI/edit" class="resume">Resume</a></li>
+          <li><a href="mailto:jitanjalipatel19@gmail.com?subject=Hello&body=This%20is%20a%20test%20email" class="contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Jitanjali<br />a</span> Frontend Web Developer
+          </h1>
+          <p class="description">
+            Welcome to my web developer portfolio! I'm Jitanjali, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. I've worked on a variety of
+            web projects, ranging from personal portfolio to e-commerce platforms.
+          </p>
+          <div class="action__btns">
+            <div class="ancor">
+                <a href="https://github.com/Jitanjali19" target="_blank" class="icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jitanjali-patel-40a5b7293/" target="_blank" class="icon"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:jitanjalipatel19@gmail.com?subject=Hello&body=This%20is%20a%20test%20email." class="icon"><i class="fas fa-envelope"></i></a>
+                <a href="https://leetcode.com/Jitanjali_Patel_19/" target="_blank" class="icon"><i class="fas fa-code"></i></a> 
+
+            </div>
+            <div class="bottons">
+                <button class="hire__me">Hire Me</button>
+                <button class="portfolio" onclick="openResume()">Resume</button>
+            </div>
+        </div>
+      </div>
+
+        <a class="anchorr" id="showSkills">Show Skills</a>
+        <div class="skills" id="skillsLabel">
+            <h2>Skills</h2>
+            <ul>
+                <li>C</li>
+                <li>C++</li>
+                <li>Core Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Excel</li>
+            </ul>
+        </div>
+      
+        <a class="aboutme" id="aboutMe">About Me</a>
+        <div class="Aboutsec" id="Aboutsection">
+            <h2>About Me</h2>
+            <p>"I'm a B.Tech student in Information Technology at SGSITS , Indore. I am passionate about web development and problem-solving. I have developed strong proficiency in C, C++, Java, HTML, CSS, JavaScript, and React. With over 250 questions solved on online coding platforms, I am continuously honing my skills, particularly in Data Structures and Algorithms. Recently, I was offered an internship at Codesoft, where I am excited to apply and further develop my knowledge. My goal is to contribute to innovative projects and grow into a skilled software engineer."</p>
+        </div>
+    </section>
+
+
+   
+
+    <script src="Task2.js"></script>
+  </body>
+</html>
